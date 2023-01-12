@@ -1,0 +1,76 @@
+.min {
+  min-height: 75vh;
+}
+
+.mgt {
+  margin-top: 5vh;
+}
+
+.card {
+  width: 25vw;
+  height: 71vh;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.dokme {
+  border: none;
+  background-color: white;
+}
+
+.cardImg {
+  width: 18vw;
+  height: 45vh;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.cardText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blueIt {
+  color: blue;
+}
+
+.ml3 {
+  margin-left: 3px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .card {
+    width: 60vw;
+    height: 71vh;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  .cardImg {
+    width: 55vw;
+    height: 45vh;
+    padding: 1rem;
+    overflow: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .card {
+    width: 35vw;
+    height: 71vh;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  .cardImg {
+    width: 35vw;
+    height: 45vh;
+    padding: 1rem;
+    overflow: auto;
+  }
+}

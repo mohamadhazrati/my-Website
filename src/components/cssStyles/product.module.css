@@ -1,0 +1,59 @@
+.min {
+  min-height: 75vh;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.forImg {
+  width: 24vw;
+  height: 65vh;
+  padding: 2rem;
+}
+
+.forCard {
+  width: 22rem;
+}
+.bgIt {
+  background-color: lightblue;
+}
+
+.blueIt {
+  color: blue;
+}
+.ml3 {
+  margin-left: 3px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+  }
+  .forCard {
+    width: 20rem;
+    height: 75vh;
+    overflow: auto;
+    margin-bottom: 3vh;
+  }
+  .forImg {
+    width: 60vw;
+    height: 50vh;
+    padding: 2rem;
+  }
+  .butt {
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+.min {
+  min-height: 75vh;
+}
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fcard {
+  width: 55vw;
+  margin-top: 3%;
+  border: 1px solid black;
+  border-radius: 2%;
+}
+.cbody {
+  background-color: lightblue;
+  border-radius: 3% 3% 0 0;
+}
+.cImg {
+  width: 15vw;
+  height: 30vh;
+  margin-top: 2%;
+}
+#forlg {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 2vh;
+  overflow: auto;
+}
+.rblue {
+  color: royalblue;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .fcard {
+    width: 75vw;
+    margin-top: 3%;
+    border: 1px solid black;
+    border-radius: 2%;
+  }
+  .cImg {
+    width: 45vw;
+    height: 30vh;
+    margin-top: 2%;
+  }
+}

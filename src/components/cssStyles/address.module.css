@@ -1,0 +1,26 @@
+.div1 {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.forCard {
+  margin-top: 5vh;
+  width: 45vw;
+  overflow: auto;
+}
+.lblueIt {
+  background-color: lightblue;
+}
+
+.redIt {
+  color: red;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .forCard {
+    margin-top: 5vh;
+    width: 75vw;
+    overflow: auto;
+  }
+}
